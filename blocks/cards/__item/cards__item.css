@@ -1,0 +1,43 @@
+.cards__item{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+    "title links"
+    "img paragraph";
+    gap: 40px;
+}
+
+@media screen and (max-width: 1440px){
+    .cards__item{
+      margin-bottom: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1079px){
+    .cards__item{
+      margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1023px){
+    .cards__item{
+      margin-top: 73px;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .cards__item{
+      grid-template-areas: 
+      "title"
+      "links"
+      "img"
+      "paragraph";
+
+      margin-top: 50px;
+      gap: 32px;
+    }
+  }
+
+  .cards__item:last-child{
+    margin-bottom: 0;
+}

@@ -1,0 +1,28 @@
+.cards__img{
+    margin: 0;
+    grid-area: img;
+}
+@media screen and (max-width: 1440px){
+    .cards__img{
+      width: 460px;
+      height: 460px;
+    }
+  }
+  @media screen and (max-width: 1079px){
+    .cards__img{
+      width: 440px;
+      height: 440px;
+    }
+  }
+  @media screen and (max-width: 1023px){
+    .cards__img{
+      width: 340px;
+      height: 340px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .cards__img{
+      width: 320px;
+      height: 320px;
+    }
+  }

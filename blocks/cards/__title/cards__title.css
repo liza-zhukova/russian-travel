@@ -1,0 +1,22 @@
+.cards__title{
+    margin: 0;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+@media screen and (max-width: 1440px){
+    .cards__title{
+      font-size: 72px;
+    }
+  }
+  @media screen and (max-width: 1023px){
+    .cards__title{
+      font-size: 42px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .cards__title{
+      font-size: 32px;
+    }
+  }
