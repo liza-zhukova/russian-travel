@@ -6,7 +6,7 @@
     line-height: 1.2;
     font-weight: normal;
 }
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1024px){
     .cards__paragraph{
       font-size: 18px;
     }
