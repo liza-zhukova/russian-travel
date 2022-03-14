@@ -1,7 +1,9 @@
-.intro__list_number{
+.intro__list-name{
     margin: 0;
     color: #ffffff;
     font-family: "Inter", sans-serif;
     font-size: 12px;
     line-height: 1.2;
+    font-weight: bold;
+    margin-right: 5px;
 }
