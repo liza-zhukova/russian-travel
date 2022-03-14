@@ -4,13 +4,13 @@
     grid-area: links;
     align-self: end;
 }
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1280px){
     .cards__links{
       width: 456px;
       height: 46px;
     }
   }
-  @media screen and (max-width: 1023px){
+  @media screen and (min-width: 768px){
     .cards__links{
       width: 352px;
       height: 46px;

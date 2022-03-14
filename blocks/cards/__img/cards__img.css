@@ -2,19 +2,19 @@
     margin: 0;
     grid-area: img;
 }
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1280px){
     .cards__img{
       width: 460px;
       height: 460px;
     }
   }
-  @media screen and (max-width: 1079px){
+  @media screen and (min-width: 1024px){
     .cards__img{
       width: 440px;
       height: 440px;
     }
   }
-  @media screen and (max-width: 1023px){
+  @media screen and (min-width: 768px){
     .cards__img{
       width: 340px;
       height: 340px;

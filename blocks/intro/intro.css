@@ -5,13 +5,13 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1024px){
   .intro{
     margin-top: 92px;
   }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 768px){
   .intro{
     margin-top: 88px;
   }

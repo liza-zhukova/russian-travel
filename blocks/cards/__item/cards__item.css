@@ -7,19 +7,19 @@
     gap: 40px;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1280px){
     .cards__item{
       margin-bottom: 80px;
     }
   }
 
-  @media screen and (max-width: 1079px){
+  @media screen and (min-width: 1024px){
     .cards__item{
       margin-top: 80px;
     }
   }
 
-  @media screen and (max-width: 1023px){
+  @media screen and (min-width: 768px){
     .cards__item{
       margin-top: 73px;
     }
