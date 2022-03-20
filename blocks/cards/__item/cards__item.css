@@ -1,10 +1,10 @@
 .cards__item{
-    margin: 0;
     display: grid;
     grid-template-areas: 
     "title links"
     "img paragraph";
     gap: 40px;
+    margin: auto;
 }
 
 @media screen and (min-width: 1280px){
