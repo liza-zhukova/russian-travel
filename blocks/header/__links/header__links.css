@@ -1,15 +1,6 @@
 .header__links {
   display: flex;
   list-style: none;
-  align-items: flex-end;
-}
-@media screen and (min-width: 768px){
-  .header__links{
-      margin-bottom: 10px;
-  }
-}
-@media screen and (max-width: 767px){
-  .header__links{
-      margin-bottom: 1px;
-  }
+  align-items: center;
+  padding-top: 10px;
 }
