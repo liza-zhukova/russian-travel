@@ -10,7 +10,6 @@
     .lead__subtitle{
       margin-bottom: 64px;
       width: 640px;
-      height: 72px;
       
     }
   }
@@ -18,7 +17,6 @@
       .lead__subtitle{
         margin-bottom: 56px;
         width: 640px;
-        height: 72px;
         font-size: 30px;
       }
   }
@@ -26,7 +24,6 @@
     .lead__subtitle{
       margin-bottom: 16px;
       width: 288px;
-      height: 88px;
       font-size: 16px;
     }
   }
